@@ -3,7 +3,11 @@
 
 ### Enquiring
 
-[MESS](http://http://mess.org) is an amazing program that emulate pretty much every home system that ever existed. The only hickup is that it can be a bit complicated to setup and a lot of the additional helpers softwares gravitating around it are imperfect or incomplete. Many friends always ask me to it up for them and I got tired to maintain these installation. Git version control seemed to be a good way for me to distribute the setup and have my friend updated easily.
+[MESS](http://http://mess.org) is an amazing program that emulate pretty much every home system that ever existed. The only hickup is that it can be a bit complicated to setup and a lot of the helpers softwares gravitating around it are imperfect or incomplete. Many friends always ask me to it up for them and I got tired to maintain these installations. Git version control seemed to be a good way for me to distribute the setup and have my friend update it easily.
+
+### Installing
+
+For once things will be a bit more complicated for MacOS users since the version of MAME running is actually called [SDLMAME](http://rbelmont.mameworld.info/?page_id=163), and in order to run it you need the [SDL](http://www.libsdl.org/) framework installed. This can be achieved easily following this [video tutorial](http://youtu.be/K6xyO-poAZU?t=30s). On **Windows** there is nothing to do.
 
 ### Launching
 
@@ -25,7 +29,7 @@ You will notice that mame will conveniently propose rom name corrections if you 
 ./mess64 -h
 ```
 
-For **Windows** just go to the "win" folder instead of the "mac" on and always replace `./mess64` by `mess64.exe`.
+For **Windows** just go to the "win" folder instead of the "mac" one and always replace `./mess64` by `mess64.exe`.
 
 ### Playing
 
