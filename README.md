@@ -1,15 +1,14 @@
 # MESS
-======
 
-### Enquiring
+### Enquire
 
 [MESS](http://http://mess.org) is an amazing program that emulate pretty much every home system that ever existed. The only hickup is that it can be a bit complicated to setup and a lot of the helpers softwares gravitating around it are imperfect or incomplete. Many friends always ask me to it up for them and I got tired to maintain these installations. Git version control seemed to be a good way for me to distribute the setup and have my friend update it easily.
 
-### Installing
+### Install
 
 For once things will be a bit more complicated for MacOS users since the version of MAME running is actually called [SDLMAME](http://rbelmont.mameworld.info/?page_id=163), and in order to run it you need the [SDL](http://www.libsdl.org/) framework installed. This can be achieved easily following this [video tutorial](http://youtu.be/K6xyO-poAZU?t=30s). On **Windows** there is nothing to do.
 
-### Launching
+### Launch
 
 On **MacOS** open your terminal and browse to mac folder inside the mess folder you just got from GitHub and then issue the following command.
 
@@ -31,11 +30,11 @@ You will notice that mame will conveniently propose rom name corrections if you 
 
 For **Windows** just go to the "win" folder instead of the "mac" one and always replace `./mess64` by `mess64.exe`.
 
-### Playing
+### Play
 
 You play with the keyboard but the emulator is also already configurated to work with most of the fantastic [Retro Zone](http://www.retrousb.com) USB adapters. Main keyboard keys for the first player are 1 for start, 5 to insert coin, WASD for movement and GHJBNM for buttons. For the second player it is respectively 2, 6, ARROWS and 456123 from the numpad.
 
-### Roms
+### Extend
 
 An emulator is not worth much without it's roms but unfortunately I cannot provide them as part of that setup for obvious reasons. Therefore you will have to use you imagination to get a hold on these little gems. Once you find them, the only thing you need to do is create the following folder inside you mess folder.
 
