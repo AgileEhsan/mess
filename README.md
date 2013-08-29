@@ -32,7 +32,7 @@ For **Windows** just go to the "win" folder instead of the "mac" one and always 
 
 ### Play
 
-You play with the keyboard but the emulator is also already configurated to work with most of the fantastic [Retro Zone](http://www.retrousb.com) USB adapters. Main keyboard keys for the first player are 1 for start, 5 to insert coin, WASD for movement and GHJBNM for buttons. For the second player it is respectively 2, 6, ARROWS and 456123 from the numpad.
+You play with the keyboard but the emulator is also already configurated to work with most of the fantastic [RetroZone](http://www.retrousb.com) USB adapters. Main keyboard keys for the first player are 1 for start, 5 to insert coin, WASD for movement and GHJBNM for buttons. For the second player it is respectively 2, 6, ARROWS and 456123 from the numpad.
 
 ### Extend
 
