@@ -2,7 +2,7 @@
 
 ### Enquire
 
-[MESS](http://http://mess.org) is an amazing program that emulate pretty much every home system that ever existed. The only hickup is that it can be a bit complicated to setup and a lot of the helpers softwares gravitating around it are imperfect or incomplete. Many friends always ask me to it up for them and I got tired to maintain these installations. Git version control seemed to be a good way for me to distribute the setup and have my friend update it easily.
+[MESS](http://http://mess.org) is an amazing program that emulate pretty much every home system that ever existed. The only hickup is that it can be a bit complicated to setup and a lot of the helpers softwares gravitating around it are imperfect or incomplete. Many friends always ask me to set it up for them and I got tired to maintain these installations. Git version control seemed to be a good way for me to distribute the setup and have my friend update it easily.
 
 ### Install
 
