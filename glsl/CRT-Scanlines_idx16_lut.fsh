@@ -158,6 +158,12 @@ void main()
 #endif
   vec2 uv_ratio = fract(ratio_scale);
 
+  // Figuring out if we need to up-scale the scanlines for "HD" images.
+  float scanlinesScale = color_texture_pow2_sz.x > 600.0 ? 0.5 : 1.0;
+
+  // This is the ratio that will be used for scanlines.
+  vec2 uv_ratio2 = fract(ratio_scale * scanlinesScale);
+
   // Snap to the center of the underlying texel.
   xy = (floor(ratio_scale) + vec2(0.5)) / color_texture_pow2_sz;
 
@@ -179,17 +185,17 @@ void main()
   // scanlines at the horizontal location of the current pixel,
   // using the Lanczos coefficients above.
   vec4 col  = clamp(mat4(
-			 TEX2D(xy + vec2(-one.x, 0.0)),
-			 TEX2D(xy),
-			 TEX2D(xy + vec2(one.x, 0.0)),
-			 TEX2D(xy + vec2(2.0 * one.x, 0.0))) * coeffs,
-		    0.0, 1.0);
+       TEX2D(xy + vec2(-one.x, 0.0)),
+       TEX2D(xy),
+       TEX2D(xy + vec2(one.x, 0.0)),
+       TEX2D(xy + vec2(2.0 * one.x, 0.0))) * coeffs,
+        0.0, 1.0);
   vec4 col2 = clamp(mat4(
-			 TEX2D(xy + vec2(-one.x, one.y)),
-			 TEX2D(xy + vec2(0.0, one.y)),
-			 TEX2D(xy + one),
-			 TEX2D(xy + vec2(2.0 * one.x, one.y))) * coeffs,
-		    0.0, 1.0);
+       TEX2D(xy + vec2(-one.x, one.y)),
+       TEX2D(xy + vec2(0.0, one.y)),
+       TEX2D(xy + one),
+       TEX2D(xy + vec2(2.0 * one.x, one.y))) * coeffs,
+        0.0, 1.0);
 
 #ifndef LINEAR_PROCESSING
   col  = pow(col , vec4(CRTgamma));
@@ -198,15 +204,15 @@ void main()
 
   // Calculate the influence of the current and next scanlines on
   // the current pixel.
-  vec4 weights  = scanlineWeights(uv_ratio.y, col);
-  vec4 weights2 = scanlineWeights(1.0 - uv_ratio.y, col2);
+  vec4 weights  = scanlineWeights(uv_ratio2.y, col);
+  vec4 weights2 = scanlineWeights(1.0 - uv_ratio2.y, col2);
 #ifdef OVERSAMPLE
-  uv_ratio.y =uv_ratio.y+1.0/3.0*filter;
-  weights = (weights+scanlineWeights(uv_ratio.y, col))/3.0;
-  weights2=(weights2+scanlineWeights(abs(1.0-uv_ratio.y), col2))/3.0;
-  uv_ratio.y =uv_ratio.y-2.0/3.0*filter;
-  weights=weights+scanlineWeights(abs(uv_ratio.y), col)/3.0;
-  weights2=weights2+scanlineWeights(abs(1.0-uv_ratio.y), col2)/3.0;
+  uv_ratio.y =uv_ratio2.y+1.0/3.0*filter;
+  weights = (weights+scanlineWeights(uv_ratio2.y, col))/3.0;
+  weights2=(weights2+scanlineWeights(abs(1.0-uv_ratio2.y), col2))/3.0;
+  uv_ratio.y =uv_ratio2.y-2.0/3.0*filter;
+  weights=weights+scanlineWeights(abs(uv_ratio2.y), col)/3.0;
+  weights2=weights2+scanlineWeights(abs(1.0-uv_ratio2.y), col2)/3.0;
 #endif
   vec3 mul_res  = (col * weights + col2 * weights2).rgb * vec3(cval);
 
