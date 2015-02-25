@@ -16,7 +16,7 @@ Symbolic Debugger 5Z-011D
 Easidata (English Version)
 -->
 
-<softwarelist name="mz700_cass" description="Sharp MZ-700 cassette images">
+<softwarelist name="mz700_cass" description="Sharp MZ-700 cassettes">
 
 	<software name="1z013b">
 		<description>BASIC Interpreter 1Z-013B V1.0A / Applications V1.0A</description>
@@ -613,7 +613,7 @@ Easidata (English Version)
 		<description>PCGAID-700 V1.0 (Jpn)</description>
 		<year>19??</year>
 		<publisher>HAL Laboratory</publisher>
-        <info name="usage" value="PCG-700 required"/>
+		<info name="usage" value="PCG-700 required"/>
 		<part name="cass1" interface="mz_cass">
 			<dataarea name="cass" size="4162">
 				<rom name="pcgaid.mzf" size="4162" crc="c34ef347" sha1="4319578cdf1aa0d21400c33627701774c0297de6" offset="0" />
@@ -625,7 +625,7 @@ Easidata (English Version)
 		<description>PCGAID-700 V1.0 (Euro)</description>
 		<year>19??</year>
 		<publisher>HAL Laboratory</publisher>
-        <info name="usage" value="PCG-700 required"/>
+		<info name="usage" value="PCG-700 required"/>
 		<part name="cass1" interface="mz_cass">
 			<dataarea name="cass" size="4162">
 				<rom name="pcgaid_europe.mzf" size="4162" crc="40bf7069" sha1="4c528571f93f63e5b94421d4eac5880f2d5fffc1" offset="0" />
@@ -721,7 +721,7 @@ Easidata (English Version)
 		<publisher>Michael Gartner</publisher>
 		<info name="usage" value="Load from BASIC"/>
 		<part name="cass1" interface="mz_cass">
-			<dataarea name="cass" size="">
+			<dataarea name="cass" size="10208">
 				<rom name="kalender.mzf" size="10208" crc="6fb5a68a" sha1="dbdd53674934d2fe83aa98c895e5a8e989ab1bf3" offset="0" />
 			</dataarea>
 		</part>
@@ -732,7 +732,7 @@ Easidata (English Version)
 		<year>1982</year>
 		<publisher>Apollo Software</publisher>
 		<part name="cass1" interface="mz_cass">
-			<dataarea name="cass" size="">
+			<dataarea name="cass" size="5499">
 				<rom name="apollo.mzf" size="5499" crc="46b8ae1c" sha1="916c3ccd0f1c441b0f8c268e774eea511a953dd6" offset="0" />
 			</dataarea>
 		</part>
@@ -742,7 +742,7 @@ Easidata (English Version)
 		<description>Mole Attack</description>
 		<year>1982</year>
 		<publisher>HAL Laboratory</publisher>
-        <info name="usage" value="PCG-700 required"/>
+		<info name="usage" value="PCG-700 required"/>
 		<part name="cass1" interface="mz_cass">
 			<dataarea name="cass" size="4146">
 				<rom name="moleatta.mzf" size="4146" crc="11c14b64" sha1="fbb3482690505748cd8193f6ec77794d9d8be942" offset="0" />
@@ -1352,7 +1352,7 @@ Easidata (English Version)
 		<info name="serial" value="MZ-7G059"/>
 		<info name="usage" value="Load from BASIC"/>
 		<part name="cass1" interface="mz_cass">
-			<dataarea name="cass" size="">
+			<dataarea name="cass" size="15219">
 				<rom name="fighter command.mzf" size="15219" crc="91b4540f" sha1="bf3b9c484459e0d4736ab01daa01bc118210fa16" offset="0" />
 			</dataarea>
 		</part>
@@ -1909,11 +1909,11 @@ Easidata (English Version)
 			</dataarea>
 		</part>
 <!--
-		<part name="cass1" interface="mz_cass">
-			<dataarea name="cass" size="20896">
-				<rom name="mucmac8oo.mzf" size="20896" crc="fab9b721" sha1="524e8855ae1dd36f013c4050924d0540f920d90d" offset="0" />
-			</dataarea>
-		</part>
+        <part name="cass1" interface="mz_cass">
+            <dataarea name="cass" size="20896">
+                <rom name="mucmac8oo.mzf" size="20896" crc="fab9b721" sha1="524e8855ae1dd36f013c4050924d0540f920d90d" offset="0" />
+            </dataarea>
+        </part>
 -->
 	</software>
 
@@ -2056,7 +2056,7 @@ Easidata (English Version)
 		<description>Panique (Fra)</description>
 		<year>19??</year>
 		<publisher>Jean François Campan</publisher>
-        <info name="usage" value="Load from BASIC"/>
+		<info name="usage" value="Load from BASIC"/>
 		<part name="cass1" interface="mz_cass">
 			<dataarea name="cass" size="6784">
 				<rom name="panique.mzf" size="6784" crc="20651b41" sha1="40cc592f430552f6aa7bdc9cc7434a9013756cf7" offset="0" />
@@ -2346,7 +2346,7 @@ Easidata (English Version)
 		<year>1982</year>
 		<publisher>Solo Software</publisher>
 		<info name="serial" value="MZ-7G100"/>
-        <info name="usage" value="Load from BASIC"/>
+		<info name="usage" value="Load from BASIC"/>
 		<part name="cass1" interface="mz_cass">
 			<dataarea name="cass" size="15099">
 				<rom name="startrek.mzf" size="15099" crc="0214ccce" sha1="560e1bf2322ce647e00c39b4989349ae05241dd7" offset="0" />
@@ -2354,7 +2354,7 @@ Easidata (English Version)
 		</part>
 	</software>
 
-	<software name="strppokr">
+	<software name="spoker">
 		<description>Strip Poker</description>
 		<year>1986</year>
 		<publisher>Jean François Campan</publisher>

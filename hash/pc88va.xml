@@ -75,7 +75,7 @@ PC88VA doujin games (mostly undumped)
 		<year>19??</year>
 		<publisher>&lt;unknown&gt;</publisher>
 		<part name="flop1" interface="floppy_5_25">
-			<dataarea name="flop" size="1296112">	<!-- Data CRC16: 2729 -->
+			<dataarea name="flop" size="1296112">   <!-- Data CRC16: 2729 -->
 				<rom name="pc88-va demo.d88" size="1296112" crc="56097ca5" sha1="833ef5f645fbaf1683b53d423e506a2f72e1e83e" offset="0" />
 			</dataarea>
 		</part>
@@ -440,7 +440,7 @@ PC88VA doujin games (mostly undumped)
 		<description>Shanghai</description>
 		<year>1986</year>
 		<publisher>システムソフト (System Software)</publisher>
-       <info name="alt_title" value="上海" />
+		<info name="alt_title" value="上海" />
 		<part name="flop1" interface="floppy_5_25">
 			<dataarea name="flop" size="1296112">
 				<rom name="shang-hai (system soft).d88" size="1296112" crc="b567190e" sha1="68ca3d14e0ea12637c5f7b1c2244f0370c3abc5e" offset="0" />
@@ -633,7 +633,7 @@ PC88VA doujin games (mostly undumped)
 		<year>1990</year>
 		<publisher>タケル (Takeru)</publisher>
 		<info name="release" value="19900613"/>
-        <info name="alt_title" value="セレクテッドソーサリアン4"/>
+		<info name="alt_title" value="セレクテッドソーサリアン4"/>
 		<part name="flop1" interface="floppy_5_25">
 			<dataarea name="flop" size="761008">
 				<rom name="sorcerian va (selected4)(takeru_brother).d88" size="761008" crc="f4bb4c53" sha1="5e34d329427b2d350e90f287e2d28fd7ef16fa05" offset="0" />
@@ -802,7 +802,7 @@ PC88VA doujin games (mostly undumped)
 	</software>
 
 	<software name="cresmoon" supported="no">
-		<description>Crescent Moon Aru</description>
+		<description>Crescent Moon Girl</description>
 		<year>1989</year>
 		<publisher>アリスソフト (Alicesoft)</publisher>
 		<info name="release" value="198908xx"/>

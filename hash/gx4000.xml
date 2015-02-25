@@ -12,7 +12,6 @@
 		</part>
 	</software>
 
-	<!-- no controls -->
 	<software name="batman">
 		<description>Batman</description>
 		<year>1989</year>
@@ -221,7 +220,7 @@
 		</part>
 	</software>
 
-	<software name="swtchbld">
+	<software name="switchbl">
 		<description>Switchblade</description>
 		<year>1990</year>
 		<publisher>Gremlin Graphics</publisher>

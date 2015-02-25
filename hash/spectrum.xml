@@ -135,7 +135,7 @@
 		</part>
 	</software>
 
-    <!-- Prototypes -->
+	<!-- Prototypes -->
 
 	<software name="gyruss">
 		<description>Gyruss (Prototype)</description>
@@ -148,7 +148,7 @@
 		</part>
 	</software>
 
-    <software name="locomotn">
+	<software name="locomotn">
 		<description>Loco Motion (Prototype)</description>
 		<year>1984</year>
 		<publisher>Amazon Systems</publisher>

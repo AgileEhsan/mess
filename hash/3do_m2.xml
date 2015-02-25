@@ -3,7 +3,7 @@
 <!--
 NOTE: This list is here only to document available dumps and it's not used (yet) by MESS!
 -->
-<softwarelist name="3do_m2" description="3DO M2 CD-ROM list">
+<softwarelist name="3do_m2" description="3DO M2 CD-ROMs">
 
 <!-- Prototype disks -->
 
@@ -11,7 +11,7 @@ NOTE: This list is here only to document available dumps and it's not used (yet)
 		<!-- Original image
 		<rom name="imsa racing.iso" size="671399936" crc="96e9befa"/>
 		<rom name="imsa racing.cue" size="77"        crc="590c368f"/>
-    -->
+	-->
 		<description>IMSA Racing (Unreleased)</description>
 		<year>199?</year>
 		<publisher>3DO</publisher>

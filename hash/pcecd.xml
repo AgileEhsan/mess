@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
-<softwarelist name="pcecd" description="PCE CD-ROM list">
+<softwarelist name="pcecd" description="NEC PC-Engine / Turbografx 16 CD-ROMs">
 
 <!-- The JPN CHDs have all been converted from the 'PD PC-Engine V2' collection, dated 2007
 
@@ -188,8 +188,8 @@
 		</part>
 	</software>
 
-	<software name="arukiba">
-		<description>Arunamu no Kiba - Juuzoku Juuni Shinto Densetsu (SCD)(Jpn)</description>
+	<software name="alkiba">
+		<description>Alnam no Kiba - Juuzoku Juuni Shinto Densetsu (SCD)(Jpn)</description>
 		<year>1994</year>
 		<publisher>Right Stuff</publisher>
 		<info name="serial" value="RSCD4006"/>
@@ -1668,7 +1668,7 @@
 		</part>
 	</software>
 
-	<software name="forms95">
+	<software name="fsoccr95">
 		<description>Formation Soccer '95 - Della Serie A (ACD, SCD)(Jpn)</description>
 		<year>1995</year>
 		<publisher>Human Entertainment</publisher>
@@ -2627,17 +2627,17 @@
 	<!-- This is exactly the same as xanadu ?!-->
 	<!--
 	<software name="xanadus" cloneof="xanadu">
-		<description>Kaze no Densetsu Xanadu - Sample Disc (SCD)(Jpn)</description>
-		<year>1994</year>
-		<publisher>NEC Home Electronics</publisher>
-		<info name="serial" value="HE4002"/>
-		<info name="usage" value="CD-Rom System Card required" />
-		<sharedfeat name="requirement" value="scdsys"/>
-		<part name="cdrom" interface="pce_cdrom">
-			<diskarea name="cdrom">
-				<disk name="kaze no densetsu xanadu - sample disc (scd)(jpn)" sha1="9a53a3d1458f1532ea508e43318e9c2b4aa110ad"/>
-			</diskarea>
-		</part>
+	    <description>Kaze no Densetsu Xanadu - Sample Disc (SCD)(Jpn)</description>
+	    <year>1994</year>
+	    <publisher>NEC Home Electronics</publisher>
+	    <info name="serial" value="HE4002"/>
+	    <info name="usage" value="CD-Rom System Card required" />
+	    <sharedfeat name="requirement" value="scdsys"/>
+	    <part name="cdrom" interface="pce_cdrom">
+	        <diskarea name="cdrom">
+	            <disk name="kaze no densetsu xanadu - sample disc (scd)(jpn)" sha1="9a53a3d1458f1532ea508e43318e9c2b4aa110ad"/>
+	        </diskarea>
+	    </part>
 	</software>
 	-->
 
@@ -2883,19 +2883,19 @@
 	<!-- This is exactly the same as lastarma ?!-->
 	<!--
 	<software name="lastarmg1" cloneof="lastarmg">
-		<description>Last Armageddon {BRCD0001-6-0625-R3D} (CD)(Jpn)</description>
-		<year>1990</year>
-		<publisher>Brain Gray</publisher>
-		<info name="serial" value="BRCD0001"/>
-		<info name="release" value="19900831"/>
-		<info name="alt_title" value="ラストハルマゲドン"/>
-		<info name="usage" value="CD-Rom System Card required" />
-		<sharedfeat name="requirement" value="cdsys"/>
-		<part name="cdrom" interface="pce_cdrom">
-			<diskarea name="cdrom">
-				<disk name="last armageddon {brcd0001-6-0625-r3d} (cd)(jpn)" sha1="e9070ea3fcc0f2d9574e4051f6ce6c82b14634c6"/>
-			</diskarea>
-		</part>
+	    <description>Last Armageddon {BRCD0001-6-0625-R3D} (CD)(Jpn)</description>
+	    <year>1990</year>
+	    <publisher>Brain Gray</publisher>
+	    <info name="serial" value="BRCD0001"/>
+	    <info name="release" value="19900831"/>
+	    <info name="alt_title" value="ラストハルマゲドン"/>
+	    <info name="usage" value="CD-Rom System Card required" />
+	    <sharedfeat name="requirement" value="cdsys"/>
+	    <part name="cdrom" interface="pce_cdrom">
+	        <diskarea name="cdrom">
+	            <disk name="last armageddon {brcd0001-6-0625-r3d} (cd)(jpn)" sha1="e9070ea3fcc0f2d9574e4051f6ce6c82b14634c6"/>
+	        </diskarea>
+	    </part>
 	</software>
 	-->
 
@@ -2984,14 +2984,14 @@
 	<software name="lodosst" cloneof="lodoss">
 	<description>Lodoss Tousenki - Record of Lodoss War Taikenban (CD)(Jpn)</description>
 	<year>1992</year>
-		<publisher>Hudson</publisher>
-		<info name="usage" value="CD-Rom System Card required" />
-		<sharedfeat name="requirement" value="cdsys"/>
-		<part name="cdrom" interface="pce_cdrom">
-			<diskarea name="cdrom">
-				<disk name="lodoss tousenki - record of lodoss war taikenban (cd)(jpn)" sha1="145e81409cecbaff6f1030b99a260d6de4107742"/>
-			</diskarea>
-		</part>
+	    <publisher>Hudson</publisher>
+	    <info name="usage" value="CD-Rom System Card required" />
+	    <sharedfeat name="requirement" value="cdsys"/>
+	    <part name="cdrom" interface="pce_cdrom">
+	        <diskarea name="cdrom">
+	            <disk name="lodoss tousenki - record of lodoss war taikenban (cd)(jpn)" sha1="145e81409cecbaff6f1030b99a260d6de4107742"/>
+	        </diskarea>
+	    </part>
 	</software>
 	-->
 
@@ -3235,7 +3235,7 @@
 	<software name="silkylipo" cloneof="silkylip">
 		<description>Mahou no Shoujo Silky Lip [Ver 3.1 Prototype][Backup] (SCD)(Jpn)</description>
 		<year>19??</year>
-		<publisher>Telenet Japan</publisher>
+		<publisher>Nihon Telenet</publisher>
 		<info name="alt_title" value="魔法の少女シルキーリップ"/>
 		<info name="usage" value="CD-Rom System Card required" />
 		<sharedfeat name="requirement" value="scdsys"/>
@@ -3249,7 +3249,7 @@
 	<software name="silkylip">
 		<description>Mahou no Shoujo Silky Lip [Ver 5.0 Prototype][Backup][alt] (SCD)(Jpn)</description>
 		<year>19??</year>
-		<publisher>Telenet Japan</publisher>
+		<publisher>Nihon Telenet</publisher>
 		<info name="alt_title" value="魔法の少女シルキーリップ"/>
 		<info name="usage" value="CD-Rom System Card required" />
 		<sharedfeat name="requirement" value="scdsys"/>
@@ -3324,7 +3324,7 @@
 		</part>
 	</software>
 
-	<software name="masterm">
+	<software name="mastmons">
 		<description>Master of Monsters (CD)(Jpn)</description>
 		<year>1991</year>
 		<publisher>Micro Cabin</publisher>
@@ -5934,7 +5934,7 @@
 	<software name="tecmowc">
 		<description>Tecmo World Cup Super Soccer (SCD)(Jpn)</description>
 		<year>1992</year>
-		<publisher>Media Rings</publisher>
+		<publisher>Media Rings Corporation</publisher>
 		<info name="serial" value="MRCD2001"/>
 		<info name="release" value="19921204"/>
 		<info name="alt_title" value="テクモ ワールドカップスーパーサッカー"/>
@@ -6270,19 +6270,19 @@
 	<!-- This is exactly the same as tokimeki ?!-->
 	<!--
 	<software name="tokimekia" cloneof="tokimeki">
-		<description>Tokimeki Memorial {HRKM70414-1FABT} [Imperfect] (SCD)(Jpn)</description>
-		<year>1994</year>
-		<publisher>Konami</publisher>
-		<info name="serial" value="KMCD4007"/>
-		<info name="release" value="19940527"/>
-		<info name="alt_title" value="ときめきメモリアル"/>
-		<info name="usage" value="CD-Rom System Card required" />
-		<sharedfeat name="requirement" value="scdsys"/>
-		<part name="cdrom" interface="pce_cdrom">
-			<diskarea name="cdrom">
-				<disk name="tokimeki memorial {hrkm70414-1fabt} [imperfect] (scd)(jpn)" sha1="dd72050d2ca53c213305338e24bd6ccbce7e20f5"/>
-			</diskarea>
-		</part>
+	    <description>Tokimeki Memorial {HRKM70414-1FABT} [Imperfect] (SCD)(Jpn)</description>
+	    <year>1994</year>
+	    <publisher>Konami</publisher>
+	    <info name="serial" value="KMCD4007"/>
+	    <info name="release" value="19940527"/>
+	    <info name="alt_title" value="ときめきメモリアル"/>
+	    <info name="usage" value="CD-Rom System Card required" />
+	    <sharedfeat name="requirement" value="scdsys"/>
+	    <part name="cdrom" interface="pce_cdrom">
+	        <diskarea name="cdrom">
+	            <disk name="tokimeki memorial {hrkm70414-1fabt} [imperfect] (scd)(jpn)" sha1="dd72050d2ca53c213305338e24bd6ccbce7e20f5"/>
+	        </diskarea>
+	    </part>
 	</software>
 	-->
 
@@ -6321,19 +6321,19 @@
 	<!-- This is exactly the same as tokimekic ?!-->
 	<!--
 	<software name="tokimekid" cloneof="tokimeki">
-		<description>Tokimeki Memorial {HRKM71014-3FABT} (SCD)(Jpn)</description>
-		<year>1994</year>
-		<publisher>Konami</publisher>
-		<info name="serial" value="KMCD4007"/>
-		<info name="release" value="19940527"/>
-		<info name="alt_title" value="ときめきメモリアル"/>
-		<info name="usage" value="CD-Rom System Card required" />
-		<sharedfeat name="requirement" value="scdsys"/>
-		<part name="cdrom" interface="pce_cdrom">
-			<diskarea name="cdrom">
-				<disk name="tokimeki memorial {hrkm71014-3fabt} (scd)(jpn)" sha1="3c6c9cf7134a20c36c19dfcb6b10c32d4a0595f7"/>
-			</diskarea>
-		</part>
+	    <description>Tokimeki Memorial {HRKM71014-3FABT} (SCD)(Jpn)</description>
+	    <year>1994</year>
+	    <publisher>Konami</publisher>
+	    <info name="serial" value="KMCD4007"/>
+	    <info name="release" value="19940527"/>
+	    <info name="alt_title" value="ときめきメモリアル"/>
+	    <info name="usage" value="CD-Rom System Card required" />
+	    <sharedfeat name="requirement" value="scdsys"/>
+	    <part name="cdrom" interface="pce_cdrom">
+	        <diskarea name="cdrom">
+	            <disk name="tokimeki memorial {hrkm71014-3fabt} (scd)(jpn)" sha1="3c6c9cf7134a20c36c19dfcb6b10c32d4a0595f7"/>
+	        </diskarea>
+	    </part>
 	</software>
 	-->
 
@@ -6954,7 +6954,7 @@
 	<software name="zero4c2">
 		<description>Zero 4 Champ II (SCD)(Jpn)</description>
 		<year>1993</year>
-		<publisher>Media Rings</publisher>
+		<publisher>Media Rings Corporation</publisher>
 		<info name="serial" value="MRCD2002"/>
 		<info name="release" value="19930305"/>
 		<info name="alt_title" value="ゼロヨンチャンプII"/>
@@ -7087,7 +7087,7 @@
 	<software name="cosmfnt2">
 		<description>Cosmic Fantasy II (CD)(USA)</description>
 		<year>1992</year>
-		<publisher>Telenet Japan</publisher>
+		<publisher>Nihon Telenet</publisher>
 		<info name="serial" value="WTG990301"/>
 		<info name="usage" value="CD-Rom System Card required" />
 		<sharedfeat name="requirement" value="cdsys"/>

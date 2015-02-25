@@ -5,7 +5,7 @@
 
 Known Undumped protos: -
 
-  - Behind Jaggi Lines			Atari				 CX5254  (Released as "Rescue on Fractalus")
+  - Behind Jaggi Lines          Atari                CX5254  (Released as "Rescue on Fractalus")
   - Fail Safe                   Atari                CX5210  (Released as "Countermeasure")
   - Jungle River Cruise         Atari                        (Created to work with the unreleased "Puffer" Exercise Bicycle)
   - Muppets Go-Round            Atari                CX5234  (Released on the Atari 8bit as "Sesame Street Letter Go Round")
@@ -1371,7 +1371,7 @@ Possible Undumped protos: -
 	<software name="cblast">
 		<description>Castle Blast</description>
 		<year>2002</year>
-        <publisher>&lt;unlicensed&gt;</publisher>
+		<publisher>&lt;unlicensed&gt;</publisher>
 		<info name="developer" value="Ronen Habot" />
 		<part name="cart" interface="a5200_cart">
 			<dataarea name="rom" size="32768">
@@ -1383,7 +1383,7 @@ Possible Undumped protos: -
 	<software name="ccrisis">
 		<description>Castle Crisis</description>
 		<year>2004</year>
-        <publisher>&lt;unlicensed&gt;</publisher>
+		<publisher>&lt;unlicensed&gt;</publisher>
 		<info name="developer" value="Bryan Edewaard" />
 		<part name="cart" interface="a5200_cart">
 			<dataarea name="rom" size="32768">
@@ -1395,7 +1395,7 @@ Possible Undumped protos: -
 	<software name="koffiyk">
 		<description>Koffi: Yellow Kopter</description>
 		<year>2002</year>
-        <publisher>&lt;unlicensed&gt;</publisher>
+		<publisher>&lt;unlicensed&gt;</publisher>
 		<info name="developer" value="Ron Lloyd" />
 		<part name="cart" interface="a5200_cart">
 			<dataarea name="rom" size="32768">

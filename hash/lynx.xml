@@ -12,7 +12,7 @@ Undumped Self-Published Titles:
 * Cyber Virus (Songbird Productions, CF2007)
 * Cyber Virus - CinciClassic Edition (Songbird Productions, CF20B1)
 * Lynx Othello (H. Dodgson)
-* MegaPak 1 (Songbird Productions, CF2010)	- too new (2008)
+* MegaPak 1 (Songbird Productions, CF2010)  - too new (2008)
 * PokerMania (MW Software)
 * Ponx (Songbird Productions, CF2002)
 * Remnant - Planar Wars 3D (Songbird Productions, CF2005)
@@ -682,7 +682,7 @@ Known undumped prototypes:
 	</software>
 
 	<software name="pitfight">
-		<description>Pit Fighter - The Ultimate Competition (Euro, USA)</description>
+		<description>Pit-Fighter - The Ultimate Competition (Euro, USA)</description>
 		<year>1992</year>
 		<publisher>Atari</publisher>
 		<info name="serial" value="PA2070" />
@@ -722,7 +722,7 @@ Known undumped prototypes:
 		<year>1997</year>
 		<publisher>Telegames</publisher>
 		<part name="cart" interface="lynx_cart">
-		<feature name="rotation" value="LEFT" />
+			<feature name="rotation" value="LEFT" />
 			<dataarea name="rom" size="262144">
 				<rom name="raiden (usa) (v3.0).bin" size="262144" crc="bcd10c3a" sha1="df48f69a7257a40844812e5b0bda9efdf093b7f6" offset="000000" />
 			</dataarea>
@@ -1041,7 +1041,7 @@ Known undumped prototypes:
 	</software>
 
 	<software name="dragnet">
-		<description>Dragnet</description>
+		<description>Dragnet Sound Demo</description>
 		<year>1995</year>
 		<publisher>&lt;unknown&gt;</publisher>
 		<part name="cart" interface="lynx_cart">
@@ -1051,10 +1051,12 @@ Known undumped prototypes:
 		</part>
 	</software>
 
+<!-- Quoting the dev: "Zow started as a collection of sound and graphics demos.  It was killed when someone who had no right to, released a version to the 'net" -->
 	<software name="conquest">
 		<description>Conquest of Zow</description>
 		<year>1996</year>
-		<publisher>&lt;unknown&gt;</publisher>
+		<publisher>&lt;homebrew&gt;</publisher>
+		<info name="developer" value="Harry Dodgson" />
 		<part name="cart" interface="lynx_cart">
 			<dataarea name="rom" size="262144">
 				<rom name="conquest of zow (1996).bin" size="262144" crc="b02821fa" sha1="87b683653dfe76af02a1920582b6362ee11a3715" offset="000000" />
@@ -1063,7 +1065,7 @@ Known undumped prototypes:
 	</software>
 
 	<software name="lynx2tst">
-		<description>Lynx II Production Test Program V0.02 (USA, Prototype)</description>
+		<description>Lynx II Production Test Program V0.02 (Prototype)</description>
 		<year>19??</year>
 		<publisher>&lt;unknown&gt;</publisher>
 		<part name="cart" interface="lynx_cart">

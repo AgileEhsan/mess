@@ -13,7 +13,7 @@
 
 		@ 1979 Digital Research  @ 1979 Morrow Designs
 
-					                              #509
+		                                          #509
 		-->
 		<part name="flop" interface="floppy_8">
 			<dataarea name="flop" size="324473">
@@ -142,7 +142,7 @@
 		Multio 9600 console; Multio 1200 serial LST: MICROSOFT BASIC
 		@ 1979 Digital Research   @ 1979 Morrow DesignsVers 5.21
 		                                           #909 © 1979
-												       Microsoft
+		                                               Microsoft
 		-->
 		<part name="flop" interface="floppy_8">
 			<dataarea name="flop" size="558903">

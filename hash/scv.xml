@@ -137,16 +137,16 @@ Information found at http://www.rhod.fr/yeno_epoch.html
 		</part>
 	</software>
 
-    <software name="dball">
-        <description>Dragon Ball - Dragon Dai Hikyou</description>
-        <year>1986</year>
-        <publisher>Epoch</publisher>
-        <part name="cart" interface="scv_cart">
-            <dataarea name="rom" size="131072">
-                <rom name="dragonba.bin" size="131072" crc="ea251664" sha1="bd3791ed43a2019a255152e3fc0d8a663cb9567a" offset="0" />
-            </dataarea>
-        </part>
-    </software>
+	<software name="dball">
+		<description>Dragon Ball - Dragon Dai Hikyou</description>
+		<year>1986</year>
+		<publisher>Epoch</publisher>
+		<part name="cart" interface="scv_cart">
+			<dataarea name="rom" size="131072">
+				<rom name="dragonba.bin" size="131072" crc="ea251664" sha1="bd3791ed43a2019a255152e3fc0d8a663cb9567a" offset="0" />
+			</dataarea>
+		</part>
+	</software>
 
 	<software name="dslayer">
 		<description>Dragon Slayer</description>
@@ -172,17 +172,17 @@ Information found at http://www.rhod.fr/yeno_epoch.html
 		</part>
 	</software>
 
-    <!-- unknown whether the rom differs between Japan and Euro versions and which this is if so -->
+	<!-- unknown whether the rom differs between Japan and Euro versions and which this is if so -->
 	<software name="kungfurd">
 		<description>Nekketsu Kung Fu Road / Kung Fu Road</description>
 		<year>1985</year>
 		<publisher>Epoch</publisher>
 		<part name="cart" interface="scv_cart">
-            <dataarea name="rom" size="65536">
-                <rom name="kungfurd.0" size="32768" crc="9cfc5a67" sha1="1c34470c1f389db7be755e130db298f6b475c7ce" offset="0" />
+			<dataarea name="rom" size="65536">
+				<rom name="kungfurd.0" size="32768" crc="9cfc5a67" sha1="1c34470c1f389db7be755e130db298f6b475c7ce" offset="0" />
 				<rom size="24576" offset="0x8000" loadflag="reload" />
-                <rom name="kungfurd.1" size="8192"  crc="a895375a" sha1="644ab7c7fb85d0d80aa3a416b0a5359d395e48a3" offset="0xe000" />
-            </dataarea>
+				<rom name="kungfurd.1" size="8192"  crc="a895375a" sha1="644ab7c7fb85d0d80aa3a416b0a5359d395e48a3" offset="0xe000" />
+			</dataarea>
 		</part>
 	</software>
 
@@ -254,7 +254,7 @@ Information found at http://www.rhod.fr/yeno_epoch.html
 	</software>
 
 	<software name="nebulaa" cloneof="nebula">
-		<description>Nebula (alt)</description>
+		<description>Nebula (Alt)</description>
 		<year>1984</year>
 		<publisher>Epoch</publisher>
 		<part name="cart" interface="scv_cart">
@@ -334,14 +334,17 @@ Information found at http://www.rhod.fr/yeno_epoch.html
 		</part>
 	</software>
 
-	<software name="starspdr">
+	<software name="starspdr" supported="partial">
 		<description>Star Speeder</description>
 		<year>1985</year>
 		<publisher>Epoch</publisher>
 		<part name="cart" interface="scv_cart">
-			<dataarea name="rom" size="40960">
-				<rom name="starspeeder.0" size="32768" crc="511576ee" sha1="1b61132af26dc8d5c1b5e0f72c2e96192bba7e20" offset="0" />
-				<rom name="starspeeder.1" size="8192"  crc="7978c4a6" sha1="6BB5FF3946867FA7ADB6561DC084EF5A7A92C507" offset="0x8000" />
+			<dataarea name="rom" size="65536">
+				<rom name="starspeeder.1" size="8192"  crc="7978c4a6" sha1="6bb5ff3946867fa7adb6561dc084ef5a7a92c507" offset="0" />
+				<rom size="8192" offset="0x2000" loadflag="reload" />
+				<rom size="8192" offset="0x4000" loadflag="reload" />
+				<rom size="8192" offset="0x6000" loadflag="reload" />
+				<rom name="starspeeder.0" size="32768" crc="511576ee" sha1="1b61132af26dc8d5c1b5e0f72c2e96192bba7e20" offset="0x8000" />
 			</dataarea>
 		</part>
 	</software>
@@ -384,7 +387,7 @@ Information found at http://www.rhod.fr/yeno_epoch.html
 
 	<!-- maybe pal, name taken from boxart -->
 	<software name="soccera" cloneof="soccer">
-		<description>Super Soccer (alt)</description>
+		<description>Super Soccer (Alt)</description>
 		<year>1985</year>
 		<publisher>Epoch</publisher>
 		<part name="cart" interface="scv_cart">

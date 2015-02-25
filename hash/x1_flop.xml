@@ -96,7 +96,7 @@ Plus, some games crash MESS at exit (e.g. some sorcer disks or some arcus disks)
 		<year>1988</year>
 		<publisher>データウエスト (Data West)</publisher>
 		<info name="release" value="198802xx"/>
-		<info name="alt_title" value="第4のユニット"/>
+		<info name="alt_title" value="第4のユニット ~ Dai 4 no Unit" />
 		<part name="flop1" interface="floppy_5_25">
 			<dataarea name="flop" size="327680">
 				<rom name="4th unit, the (19xx)(data west)(jp)(disk 1 of 2).2d" size="327680" crc="885edcf7" sha1="d6a536bd4fb8553dbe9c0467cbfe1d70e2fff342" offset="0" />
@@ -234,12 +234,12 @@ Plus, some games crash MESS at exit (e.g. some sorcer disks or some arcus disks)
 		<info name="alt_title" value="アルゴー"/>
 		<part name="flop1" interface="floppy_5_25">
 			<dataarea name="flop" size="327680">
-                <rom name="argos_1.2d" size="327680" crc="4c63544e" sha1="c7da6aeb8879a3cf81b7c774ad2e9e9ccd0d8878" offset="0" />
+				<rom name="argos_1.2d" size="327680" crc="4c63544e" sha1="c7da6aeb8879a3cf81b7c774ad2e9e9ccd0d8878" offset="0" />
 			</dataarea>
 		</part>
 		<part name="flop2" interface="floppy_5_25">
 			<dataarea name="flop" size="327680">
-                <rom name="argos_2.2d" size="327680" crc="eb210fa5" sha1="dc5e281f12e14455cf6149edb1db2825459a595d" offset="0" />
+				<rom name="argos_2.2d" size="327680" crc="eb210fa5" sha1="dc5e281f12e14455cf6149edb1db2825459a595d" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -288,7 +288,7 @@ Plus, some games crash MESS at exit (e.g. some sorcer disks or some arcus disks)
 		</part>
 	</software>
 
-	<software name="bcity">
+	<software name="batlcity">
 		<description>Battle City</description>
 		<year>1986</year>
 		<publisher>電波新聞社 (Dempa Shinbunsha)</publisher>
@@ -409,9 +409,9 @@ Plus, some games crash MESS at exit (e.g. some sorcer disks or some arcus disks)
 	</software>
 
 <!-- The following version consists of d88 disks which only differ in the header, but contains the exact same data
-	<rom name="crimsonp.d88" size="348848" crc="bb46dc55" sha1="1cfebfe7b80e4818ca815ee9aa9df337d6bb900b" offset="0" />
-	<rom name="crimsons.d88" size="348848" crc="d3cd8490" sha1="24054ba0c57b14cdaf1fa2fd4c5c8d1d874198d8" offset="0" />
-	<rom name="crimsonu.d88" size="348848" crc="3eeaae89" sha1="460e405c18beac1593ee851d86a2d1dfe4315b34" offset="0" />
+    <rom name="crimsonp.d88" size="348848" crc="bb46dc55" sha1="1cfebfe7b80e4818ca815ee9aa9df337d6bb900b" offset="0" />
+    <rom name="crimsons.d88" size="348848" crc="d3cd8490" sha1="24054ba0c57b14cdaf1fa2fd4c5c8d1d874198d8" offset="0" />
+    <rom name="crimsonu.d88" size="348848" crc="3eeaae89" sha1="460e405c18beac1593ee851d86a2d1dfe4315b34" offset="0" />
 -->
 	<software name="crimson">
 		<description>Crimson</description>
@@ -584,11 +584,11 @@ Plus, some games crash MESS at exit (e.g. some sorcer disks or some arcus disks)
 	</software>
 
 	<software name="megamit">
-		<description>Digital Devil Story - Megami Tensei</description>
+		<description>Digital Devil Monogatari - Megami Tensei</description>
 		<year>1987</year>
 		<publisher>日本テレネット (Nihon Telenet)</publisher>
 		<info name="release" value="198705xx"/>
-		<info name="alt_title" value="デジタル・デビル・ストーリー 女神転生"/>
+		<info name="alt_title" value="デジタル・デビル・物語 女神転生"/>
 		<part name="flop1" interface="floppy_5_25">
 			<dataarea name="flop" size="414992">
 				<rom name="dds_a.d88" size="414992" crc="b4d6d461" sha1="d42c398e983d2f14b3960cd6504a98c3361a1985" offset="0" />
@@ -602,11 +602,11 @@ Plus, some games crash MESS at exit (e.g. some sorcer disks or some arcus disks)
 	</software>
 
 	<software name="megamitb" cloneof="megamit">
-		<description>Digital Devil Story - Megami Tensei (Alt Disk 1)</description>
+		<description>Digital Devil Monogatari - Megami Tensei (Alt Disk 1)</description>
 		<year>1987</year>
 		<publisher>日本テレネット (Nihon Telenet)</publisher>
 		<info name="release" value="198705xx"/>
-		<info name="alt_title" value="デジタル・デビル・ストーリー 女神転生"/>
+		<info name="alt_title" value="デジタル・デビル・物語 女神転生"/>
 		<part name="flop1" interface="floppy_5_25">
 			<dataarea name="flop" size="414992">
 				<rom name="dds_a (alt).d88" size="414992" crc="3b4ede0e" sha1="1892e0f16afb13cc88ae5562d281f41f3d8f0a90" offset="0" />
@@ -620,11 +620,11 @@ Plus, some games crash MESS at exit (e.g. some sorcer disks or some arcus disks)
 	</software>
 
 	<software name="megamita" cloneof="megamit">
-		<description>Digital Devil Story - Megami Tensei (Alt)</description>
+		<description>Digital Devil Monogatari - Megami Tensei (Alt)</description>
 		<year>1987</year>
 		<publisher>日本テレネット (Nihon Telenet)</publisher>
 		<info name="release" value="198705xx"/>
-		<info name="alt_title" value="デジタル・デビル・ストーリー 女神転生"/>
+		<info name="alt_title" value="デジタル・デビル・物語 女神転生"/>
 		<part name="flop1" interface="floppy_5_25">
 			<dataarea name="flop" size="414992">
 				<rom name="megat_a.d88" size="414992" crc="bca112b8" sha1="e20ca20804b3b3a88d8c37cf3362e693f1dbdac6" offset="0" />
@@ -819,7 +819,7 @@ Plus, some games crash MESS at exit (e.g. some sorcer disks or some arcus disks)
 		<info name="alt_title" value="ぎゅわんぶらあ自己中心派"/>
 		<part name="flop1" interface="floppy_5_25">
 			<dataarea name="flop" size="348848">
-                <rom name="gyajiko1.d88" size="348848" crc="5063936e" sha1="76649c85bf4b7bd97428bacfa455ec1e33e43723" offset="0" />
+				<rom name="gyajiko1.d88" size="348848" crc="5063936e" sha1="76649c85bf4b7bd97428bacfa455ec1e33e43723" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -832,7 +832,7 @@ Plus, some games crash MESS at exit (e.g. some sorcer disks or some arcus disks)
 		<info name="alt_title" value="ぎゅわんぶらあ自己中心派2"/>
 		<part name="flop1" interface="floppy_5_25">
 			<dataarea name="flop" size="348848">
-                <rom name="gyajiko2.d88" size="348848" crc="81a7c4eb" sha1="71c15c75f46810ac8159b4784a4500c54e85b198" offset="0" />
+				<rom name="gyajiko2.d88" size="348848" crc="81a7c4eb" sha1="71c15c75f46810ac8159b4784a4500c54e85b198" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1236,7 +1236,7 @@ Plus, some games crash MESS at exit (e.g. some sorcer disks or some arcus disks)
 		</part>
 	</software>
 
-	<software name="lkage">
+	<software name="legkage">
 		<description>Kage no Densetsu - The Legend of Kage</description>
 		<year>1987</year>
 		<publisher>ニデコム (Nidecom)</publisher>
@@ -1544,7 +1544,7 @@ Plus, some games crash MESS at exit (e.g. some sorcer disks or some arcus disks)
 		</part>
 	</software>
 
-	<software name="mahjongk">
+	<software name="mjkyojs">
 		<description>Mahjong Kyo Jidai Special</description>
 		<year>1988</year>
 		<publisher>マイクロネット (Micronet)</publisher>
@@ -1659,17 +1659,17 @@ Plus, some games crash MESS at exit (e.g. some sorcer disks or some arcus disks)
 		<info name="alt_title" value="まじゃべんちゃー ねぎ麻雀"/>
 		<part name="flop1" interface="floppy_5_25">
 			<dataarea name="flop" size="327680">
-                <rom name="disk1.d88" size="348848" crc="3c17cce4" sha1="defff082c7ba49ac0f5e807c3cd1e9a9f4c7f1ab" offset="0" />
+				<rom name="disk1.d88" size="348848" crc="3c17cce4" sha1="defff082c7ba49ac0f5e807c3cd1e9a9f4c7f1ab" offset="0" />
 			</dataarea>
 		</part>
 		<part name="flop2" interface="floppy_5_25">
 			<dataarea name="flop" size="327680">
-                <rom name="disk2.d88" size="348848" crc="50f1b9c7" sha1="1b1bfbe1cd1b1891be78c78dba6f44b735a78b48" offset="0" />
+				<rom name="disk2.d88" size="348848" crc="50f1b9c7" sha1="1b1bfbe1cd1b1891be78c78dba6f44b735a78b48" offset="0" />
 			</dataarea>
 		</part>
 	</software>
 
-    <!-- is this correct or is it "Makai-wo" by Bond Soft (198603) [disk is broken in current svn] -->
+	<!-- is this correct or is it "Makai-wo" by Bond Soft (198603) [disk is broken in current svn] -->
 	<software name="makaifuk">
 		<description>Makai Fukkatsu</description>
 		<year>1987</year>
@@ -1769,7 +1769,7 @@ Plus, some games crash MESS at exit (e.g. some sorcer disks or some arcus disks)
 	</software>
 
 	<software name="mightmag" supported="partial">
-		<description>Might &amp; Magic</description>
+		<description>Might and Magic</description>
 		<year>1988</year>
 		<publisher>スタークラフト (Starcraft)</publisher>
 		<info name="release" value="198801xx"/>
@@ -1949,12 +1949,12 @@ Plus, some games crash MESS at exit (e.g. some sorcer disks or some arcus disks)
 		<info name="alt_title" value="王子ビンビン物語"/>
 		<part name="flop1" interface="floppy_5_25">
 			<dataarea name="flop" size="348848">
-                <rom name="unk_disk1_a.d88" size="348848" crc="2aa58976" sha1="3640c60c8b54961de8ef20e6f2cb0c668c88bcd1" offset="0" />
+				<rom name="unk_disk1_a.d88" size="348848" crc="2aa58976" sha1="3640c60c8b54961de8ef20e6f2cb0c668c88bcd1" offset="0" />
 			</dataarea>
 		</part>
 		<part name="flop2" interface="floppy_5_25">
 			<dataarea name="flop" size="348848">
-                <rom name="unk_disk1_b.d88" size="348848" crc="8de42d9f" sha1="20bfecef331af8496dfea010a5c271ca6cb03b6d" offset="0" />
+				<rom name="unk_disk1_b.d88" size="348848" crc="8de42d9f" sha1="20bfecef331af8496dfea010a5c271ca6cb03b6d" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2364,7 +2364,7 @@ Plus, some games crash MESS at exit (e.g. some sorcer disks or some arcus disks)
 		<info name="alt_title" value="新竹取物語"/>
 		<part name="flop1" interface="floppy_5_25">
 			<dataarea name="flop" size="363536">
-                <rom name="shin take to monogatari.d88" size="363536" crc="b16b9f10" sha1="c049117e2243c51fa5d6133dc4fcfd9da0102086" offset="0" />
+				<rom name="shin take to monogatari.d88" size="363536" crc="b16b9f10" sha1="c049117e2243c51fa5d6133dc4fcfd9da0102086" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3163,7 +3163,7 @@ Plus, some games crash MESS at exit (e.g. some sorcer disks or some arcus disks)
 	</software>
 
 <!-- There exists an alt checksum for the first disk (due to differences only in the d88 header, but exact same data)
-	<rom name="zzz-unk-wib_sys.d88" size="414992" crc="9670c2c2" sha1="49d4539a8eaa81818da1f192cd6bc56dc779291f" offset="0" />
+    <rom name="zzz-unk-wib_sys.d88" size="414992" crc="9670c2c2" sha1="49d4539a8eaa81818da1f192cd6bc56dc779291f" offset="0" />
 -->
 	<software name="wibarm">
 		<description>Wibarm</description>
@@ -3184,8 +3184,8 @@ Plus, some games crash MESS at exit (e.g. some sorcer disks or some arcus disks)
 	</software>
 
 <!-- The following version consists of d88 disks which only differ in the header, but contains the exact same data
-	<rom name="zzz-unk-wib_sys.d88" size="414992" crc="9670c2c2" sha1="49d4539a8eaa81818da1f192cd6bc56dc779291f" offset="0" />
-	<rom name="zzz-unk-wib_usr.d88" size="414992" crc="61bd9a53" sha1="a0e65a7fd206e71e3025dcb1bcd63947914f33f0" offset="0" />
+    <rom name="zzz-unk-wib_sys.d88" size="414992" crc="9670c2c2" sha1="49d4539a8eaa81818da1f192cd6bc56dc779291f" offset="0" />
+    <rom name="zzz-unk-wib_usr.d88" size="414992" crc="61bd9a53" sha1="a0e65a7fd206e71e3025dcb1bcd63947914f33f0" offset="0" />
 -->
 	<software name="wibarma" cloneof="wibarm">
 		<description>Wibarm (Alt)</description>
@@ -3333,12 +3333,12 @@ Plus, some games crash MESS at exit (e.g. some sorcer disks or some arcus disks)
 		<info name="alt_title" value="うっでぃぽこ"/>
 		<part name="flop1" interface="floppy_5_25">
 			<dataarea name="flop" size="348848">
-                <rom name="wodypoco.d88" size="348848" crc="6c9dc652" sha1="0003c6916a1d2b5b1ac8f09a7be046d29eeaade6" offset="0" />
+				<rom name="wodypoco.d88" size="348848" crc="6c9dc652" sha1="0003c6916a1d2b5b1ac8f09a7be046d29eeaade6" offset="0" />
 			</dataarea>
 		</part>
 		<part name="flop2" interface="floppy_5_25">
 			<dataarea name="flop" size="348848">
-                <rom name="wodydata.d88" size="537520" crc="3ff620b9" sha1="0a6682318141c08c3e8c0f8865d824a44417da44" offset="0" />
+				<rom name="wodydata.d88" size="537520" crc="3ff620b9" sha1="0a6682318141c08c3e8c0f8865d824a44417da44" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -4786,7 +4786,7 @@ Plus, some games crash MESS at exit (e.g. some sorcer disks or some arcus disks)
 	</software>
 
 	<software name="kohakuir" supported="partial">
-		<description>Kohakuiro no Yuigon</description>
+		<description>Kohakuiro no Yuigon - Seiyou Karuta Renzoku Satsujin Jiken</description>
 		<year>1988</year>
 		<publisher>リバーヒルソフト (Riverhill Software)</publisher>
 		<!-- Turbo only -->
@@ -5288,7 +5288,7 @@ Plus, some games crash MESS at exit (e.g. some sorcer disks or some arcus disks)
 			<dataarea name="flop" size="1089776">
 				<rom name="cz-8fb02 turbo basic.d88" size="1089776" crc="228f1da3" sha1="6a4cbaf9be49b8b5433a4cb453a15929f2fd30cd" offset="0" />
 			</dataarea>
-        </part>
+		</part>
 	</software>
 
 	<software name="turbobasa" cloneof="turbobas">
@@ -5452,7 +5452,7 @@ Plus, some games crash MESS at exit (e.g. some sorcer disks or some arcus disks)
 	</software>
 
 	<software name="jetterm">
-    <!-- From readme:
+	<!-- From readme:
 このソフトはパソコン通信用のソフトですが、
 CDOSというMS-DOSと同様なコマンドライン作動させることが出来ます。
 -->
@@ -5569,7 +5569,7 @@ CDOSというMS-DOSと同様なコマンドライン作動させることが出�
 		<publisher>&lt;unknown&gt;</publisher>
 		<part name="flop1" interface="floppy_5_25">
 			<dataarea name="flop" size="348848">
-                <rom name="unk_disk.d88" size="348848" crc="821d3e69" sha1="8de8f1855fa97a2381b9a3328c331c14d3d79300" offset="0" />
+				<rom name="unk_disk.d88" size="348848" crc="821d3e69" sha1="8de8f1855fa97a2381b9a3328c331c14d3d79300" offset="0" />
 			</dataarea>
 		</part>
 	</software>
