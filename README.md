@@ -6,7 +6,7 @@
 
 ### Install
 
-For once things will be a bit more complicated for MacOS users since the version of MAME used is actually called [SDLMAME](http://rbelmont.mameworld.info/?page_id=163), and in order to run it, you need the [SDL 2.0](http://www.libsdl.org/) framework installed. This can be achieved easily by following [this](http://youtu.be/K6xyO-poAZU) tutorial. Although the guy is showing for SDL 1.2, the process is the same with 2.0. On **Windows** there is nothing to do.
+For once things will be a bit more complicated for MacOS users since the version of MAME used is actually called [SDLMAME](http://rbelmont.mameworld.info/?page_id=163), and in order to run it, you need the [SDL 2.0](http://www.libsdl.org/) framework installed. This can be achieved easily by following [this](http://youtu.be/K6xyO-poAZU) tutorial. You will notice that the guy is showing for 1.2 but the process for 2.0 is the same. On **Windows** there is nothing to do.
 
 ### Launch
 
